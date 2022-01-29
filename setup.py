@@ -8,7 +8,6 @@ Development Status :: 4 - Beta
 Intended Audience :: Developers
 License :: OSI Approved :: Apache Software License
 Programming Language :: Python :: 3
-Topic :: Context
 Topic :: Software Development :: Libraries :: Python Modules
 Operating System :: Unix
 Operating System :: MacOS :: MacOS X
