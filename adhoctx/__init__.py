@@ -101,3 +101,6 @@ class Context(object):
         if key_idx and isinstance(config_obj, (List, Tuple, Set)):
             config_obj = config_obj[int(key_idx)]
         return config_obj
+
+    def __setitem__(self, key: str, value):
+        self.__setattr__(key, value)
