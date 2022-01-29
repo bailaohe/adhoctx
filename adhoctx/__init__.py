@@ -107,3 +107,6 @@ class Context(object):
 
     def __contains__(self, item):
         return item in self._inner_dict
+
+    def get(self, k, default=None):
+        return self._inner_dict.get(k, default)
