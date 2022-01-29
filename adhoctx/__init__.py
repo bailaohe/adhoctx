@@ -104,3 +104,6 @@ class Context(object):
 
     def __setitem__(self, key: str, value):
         self.__setattr__(key, value)
+
+    def __contains__(self, item):
+        return item in self._inner_dict
